@@ -1,0 +1,13 @@
+diff --git a/requirements/base.txt b/requirements/base.txt
+index 980dd9f115..cb45c3b71a 100644
+--- a/requirements/base.txt
++++ b/requirements/base.txt
+@@ -375,7 +375,7 @@ vine==5.1.0
+     #   kombu
+ wcwidth==0.2.5
+     # via prompt-toolkit
+-werkzeug==3.0.1
++werkzeug==3.0.6
+     # via
+     #   -r requirements/base.in
+     #   flask
