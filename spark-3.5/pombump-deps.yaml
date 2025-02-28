@@ -12,9 +12,3 @@ patches:
     - groupId: org.codehaus.jettison
       artifactId: jettison
       version: 1.5.4
-    - groupId: org.apache.hive
-      artifactId: hive-llap-common
-      version: 4.0.0
-    - groupId: org.apache.hive
-      artifactId: hive-exec
-      version: 4.0.1
