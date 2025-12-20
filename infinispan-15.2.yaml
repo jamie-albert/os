@@ -41,6 +41,15 @@ pipeline:
       expected-commit: c5dd3a4c57c605eb0667b7225732fef39aac0f03
 
   - uses: maven/pombump
+    with:
+      properties-file: pombump-properties.yaml
+      patch-file: pombump-deps.yaml
+      pom: pom.xml
+
+  - uses: maven/pombump
+    with:
+      properties-file: pombump-properties-configuration.yaml
+      pom: build/configuration/pom.xml
 
   - name: Create dirs
     runs: |
